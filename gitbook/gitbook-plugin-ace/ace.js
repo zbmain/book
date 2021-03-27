@@ -27,8 +27,6 @@ require(["gitbook", "jquery"], function (gitbook, $) {
       if (!config.check)
         editor.session.setOption("useWorker", false);
 
-      editor.container.style.lineHeight = 0.8;
-      editor.renderer.updateFontSize();
       editor.getSession().setMode('ace/mode/' + config.lang);
     });
   };

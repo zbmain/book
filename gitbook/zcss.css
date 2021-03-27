@@ -1,0 +1,25 @@
+.z-red{
+	color: red;
+}
+.z-blue{
+	color: blue;
+}
+.z-red-vip{
+	color: red;
+	font-size: 18px;
+}
+.z-blue-vip{
+	color: blue;
+	font-size: 18px;
+}
+.z-red-big{
+	color: red;
+	font-size: 20px;
+}
+.z-blue-big{
+	color: blue;
+	font-size: 20px;
+}
+.z-gray{
+	color: gray;
+}

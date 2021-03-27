@@ -17,15 +17,13 @@
   position: absolute;
   right: 1em;
   top: 1em;
-  line-height: 18px;
 }
 
 .code-wrapper pre {
   background: #f7f8f9;
   border-radius: 3px;
   counter-reset: line;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 15px;
 }
 
 .code-wrapper pre > code > span.code-line:before {
@@ -34,7 +32,6 @@
   content: counter(line);
   display: inline-block;
   font-size: 12px;
-  line-height: 18px;
   margin-right: 1.5em;
   width: 1em;
 }
