@@ -1,0 +1,821 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>常用命令 · ZBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="zbmain">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../gitbook/zcss.css">
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="进程线程协程.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    
+        <link rel="shortcut icon" href='../../https:/cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../https:/cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../https:/cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../https:/cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../https:/cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    主页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Py/">
+            
+                <a href="../Py/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../NLP/">
+            
+                <a href="../NLP/">
+            
+                    
+                    NLP
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../NLP/a.理论.html">
+            
+                <a href="../NLP/a.理论.html">
+            
+                    
+                    a.理论问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../NLP/b.数据.html">
+            
+                <a href="../NLP/b.数据.html">
+            
+                    
+                    b.数据问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../NLP/c.模型.html">
+            
+                <a href="../NLP/c.模型.html">
+            
+                    
+                    c.模型问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../NLP/d.部署.html">
+            
+                <a href="../NLP/d.部署.html">
+            
+                    
+                    d.部署问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../NLP/e.优化.html">
+            
+                <a href="../NLP/e.优化.html">
+            
+                    
+                    e.优化问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ALG/">
+            
+                <a href="../ALG/">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../ALG/数据结构.html">
+            
+                <a href="../ALG/数据结构.html">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../ALG/树.html">
+            
+                <a href="../ALG/树.html">
+            
+                    
+                    树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../ALG/排序.html">
+            
+                <a href="../ALG/排序.html">
+            
+                    
+                    排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../ALG/动态规划.html">
+            
+                <a href="../ALG/动态规划.html">
+            
+                    
+                    动态规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="Linux命令.html">
+            
+                <a href="Linux命令.html">
+            
+                    
+                    常用命令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="进程线程协程.html">
+            
+                <a href="进程线程协程.html">
+            
+                    
+                    进程线程协程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../DATA/">
+            
+                <a href="../DATA/">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >常用命令</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#linux&#x547D;&#x4EE4;"><b>1. </b>Linux&#x547D;&#x4EE4;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5E38;&#x7528;&#x547D;&#x4EE4;"><b>1.1. </b>&#x5E38;&#x7528;&#x547D;&#x4EE4;</a></li><li><span class="title-icon "></span><a href="#&#x57FA;&#x672C;&#x547D;&#x4EE4;"><b>1.2. </b>&#x57FA;&#x672C;&#x547D;&#x4EE4;</a></li></ul></ul></div><a href="#linux&#x547D;&#x4EE4;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="linux&#x547D;&#x4EE4;"><a name="linux&#x547D;&#x4EE4;" class="anchor-navigation-ex-anchor" href="#linux&#x547D;&#x4EE4;"><i class="fa fa-link" aria-hidden="true"></i></a>1. Linux&#x547D;&#x4EE4;</h1>
+<h2 id="&#x5E38;&#x7528;&#x547D;&#x4EE4;"><a name="&#x5E38;&#x7528;&#x547D;&#x4EE4;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x7528;&#x547D;&#x4EE4;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x5E38;&#x7528;&#x547D;&#x4EE4;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x547D;&#x4EE4;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+<th style="text-align:left">&#x793A;&#x4F8B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><font class="z-blue">&#x6587;&#x4EF6;&#x64CD;&#x4F5C;</font></td>
+</tr>
+<tr>
+<td style="text-align:left">cp</td>
+<td style="text-align:left">&#x590D;&#x5236;</td>
+<td style="text-align:left">cp a.txt b.txt // cp -r a b</td>
+</tr>
+<tr>
+<td style="text-align:left">mv</td>
+<td style="text-align:left">&#x79FB;&#x52A8;/&#x4FEE;&#x6539;&#x6587;&#x4EF6;</td>
+<td style="text-align:left">mv f1 /dir</td>
+</tr>
+<tr>
+<td style="text-align:left">rm -rf</td>
+<td style="text-align:left"><font class="z-red">&#x7ECF;&#x5178;&#x7684;&#x5220;&#x6863;&#x5165;&#x72F1;&#x6307;&#x4EE4;,&#x8C28;&#x614E;&#x4F7F;&#x7528;</font></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">head</td>
+<td style="text-align:left">&#x4ECE;&#x5934;&#x90E8;&#x6253;&#x5370;&#x67E5;&#x770B;&#x6587;&#x4EF6;</td>
+<td style="text-align:left">head 1.log -n 5 // head -n -5 t.log</td>
+</tr>
+<tr>
+<td style="text-align:left">tail</td>
+<td style="text-align:left">&#x4ECE;&#x5C3E;&#x90E8;&#x6253;&#x5370;&#x67E5;&#x770B;&#x6587;&#x4EF6;</td>
+<td style="text-align:left">tail 1.log -n 5</td>
+</tr>
+<tr>
+<td style="text-align:left">which</td>
+<td style="text-align:left">&#x6267;&#x884C;&#x547D;&#x4EE4;&#x7684;&#x6587;&#x4EF6;&#x4F4D;&#x7F6E;</td>
+</tr>
+<tr>
+<td style="text-align:left">echo $PATH</td>
+<td style="text-align:left">&#x67E5;&#x770B;&#x5F53;&#x524D; PATH &#x914D;&#x7F6E;</td>
+</tr>
+<tr>
+<td style="text-align:left">chmod</td>
+<td style="text-align:left">&#x4FEE;&#x6539;&#x6743;&#x9650; r:4 w:2 x:1</td>
+<td style="text-align:left">chmod 751 file</td>
+</tr>
+<tr>
+<td style="text-align:left">find</td>
+<td style="text-align:left">&#x67E5;&#x627E;&#x6587;&#x4EF6; -name -atime -size</td>
+<td style="text-align:left">find . -name &apos;*.log&apos;</td>
+</tr>
+<tr>
+<td style="text-align:left"><font class="z-blue">&#x538B;&#x7F29;/&#x89E3;&#x538B;</font></td>
+</tr>
+<tr>
+<td style="text-align:left">gzip</td>
+<td style="text-align:left">&#x538B;:tar -zcvf filename.tar.gz [file/path]</td>
+<td style="text-align:left">&#x89E3;:tar zxvf filename.tar.gz</td>
+</tr>
+<tr>
+<td style="text-align:left">bz2</td>
+<td style="text-align:left">&#x538B;:tar -jcvf filename.tar.bz2 [file/path]</td>
+<td style="text-align:left">&#x89E3;:tar jxvf filename.tar.bz2</td>
+</tr>
+<tr>
+<td style="text-align:left">zip</td>
+<td style="text-align:left">&#x538B;:zip -q -r file.zip [file/path]</td>
+<td style="text-align:left">&#x89E3;:unzip file.zip</td>
+</tr>
+<tr>
+<td style="text-align:left"><font class="z-blue">&#x786C;&#x4EF6;</font></td>
+</tr>
+<tr>
+<td style="text-align:left">free</td>
+<td style="text-align:left">&#x5185;&#x5B58;&#x60C5;&#x51B5; -k:KB -m:MB -g:GB -s:&#x6301;&#x7EED;&#x67E5;&#x8BE2;</td>
+<td style="text-align:left">free -s 10(&#x95F4;&#x9694;&#x5341;&#x79D2;&#x67E5;&#x8BE2;)</td>
+</tr>
+<tr>
+<td style="text-align:left">du</td>
+<td style="text-align:left">&#x67E5;&#x770B;&#x6587;&#x4EF6;&#x53CA;&#x5927;&#x5C0F; -k:KB -m:MB -g:GB</td>
+<td style="text-align:left">du -mh</td>
+</tr>
+<tr>
+<td style="text-align:left">df -l</td>
+<td style="text-align:left">&#x786C;&#x76D8;&#x7A7A;&#x95F4;</td>
+</tr>
+<tr>
+<td style="text-align:left">ln</td>
+<td style="text-align:left">-s:&#x8F6F;&#x8FDE;&#x63A5; -b:&#x8986;&#x76D6;&#x4EE5;&#x524D;&#x7684;&#x94FE;&#x63A5;</td>
+<td style="text-align:left">ln a ../a // ln -s a.log ../b.log</td>
+</tr>
+<tr>
+<td style="text-align:left"><font class="z-blue">&#x4EFB;&#x52A1;&#x8FDB;&#x7A0B;</font></td>
+</tr>
+<tr>
+<td style="text-align:left">PID</td>
+<td style="text-align:left">&#x67E5;&#x770B;&#x4EFB;&#x52A1;PID</td>
+<td style="text-align:left">ps -ef | grep python // pgrep -f python</td>
+</tr>
+<tr>
+<td style="text-align:left">jobs</td>
+<td style="text-align:left">&#x67E5;&#x770B;&#x540E;&#x53F0;&#x4EFB;&#x52A1;%ID</td>
+</tr>
+<tr>
+<td style="text-align:left">kill</td>
+<td style="text-align:left">&#x7EC8;&#x6B62;&#x8FDB;&#x7A0B;</td>
+<td style="text-align:left">kill -9 PID // $jobs $kill -9 %jobID</td>
+</tr>
+<tr>
+<td style="text-align:left">pkill</td>
+<td style="text-align:left">&#x7EC8;&#x6B62;&#x8FDB;&#x7A0B;(&#x7A0B;&#x5E8F;&#x540D;)</td>
+<td style="text-align:left">pkill -f name</td>
+</tr>
+<tr>
+<td style="text-align:left">lsof</td>
+<td style="text-align:left">&#x7AEF;&#x53E3;&#x5360;&#x7528;</td>
+<td style="text-align:left">lsof -i:[&#x7AEF;&#x53E3;&#x53F7;]</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Z</td>
+<td style="text-align:left">&#x505C;&#x6B62;</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+C</td>
+<td style="text-align:left">&#x6302;&#x8D77;</td>
+</tr>
+<tr>
+<td style="text-align:left"><font class="z-blue">&#x5176;&#x4ED6;&#x64CD;&#x4F5C;</font></td>
+</tr>
+<tr>
+<td style="text-align:left">&#x6B65;&#x9AA4;&#x4E00;</td>
+<td style="text-align:left">&#x6B65;&#x9AA4;&#x4E8C;</td>
+</tr>
+<tr>
+<td style="text-align:left">CentOS&#x7CFB;&#x7EDF;&#x65F6;&#x95F4;</td>
+</tr>
+<tr>
+<td style="text-align:left">rm -rf /etc/localtime</td>
+<td style="text-align:left">ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x57FA;&#x672C;&#x547D;&#x4EE4;"><a name="&#x57FA;&#x672C;&#x547D;&#x4EE4;" class="anchor-navigation-ex-anchor" href="#&#x57FA;&#x672C;&#x547D;&#x4EE4;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x57FA;&#x672C;&#x547D;&#x4EE4;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x547D;&#x4EE4;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">ls [&#x9009;&#x9879;]</td>
+<td style="text-align:left">&#x67E5;&#x770B;&#x76EE;&#x5F55;&#x6587;&#x4EF6; [-a &#x9690;&#x85CF;&#x6587;&#x4EF6;]</td>
+</tr>
+<tr>
+<td style="text-align:left">tree</td>
+<td style="text-align:left">&#x4EE5;&#x6811;&#x72B6;&#x65B9;&#x5F0F;&#x663E;&#x793A;&#x76EE;&#x5F55;&#x4FE1;&#x606F;</td>
+</tr>
+<tr>
+<td style="text-align:left">pwd</td>
+<td style="text-align:left">&#x67E5;&#x770B;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x8DEF;&#x5F84;</td>
+</tr>
+<tr>
+<td style="text-align:left">clear</td>
+<td style="text-align:left">&#x6E05;&#x9664;&#x7EC8;&#x7AEF;&#x5185;&#x5BB9;</td>
+</tr>
+<tr>
+<td style="text-align:left">cd [&#x76EE;&#x5F55;]</td>
+<td style="text-align:left">&#x5207;&#x6362;&#x76EE;&#x5F55;</td>
+</tr>
+<tr>
+<td style="text-align:left">cd ~</td>
+<td style="text-align:left">&#x5207;&#x6362;&#x5230;&#x5F53;&#x524D;&#x7528;&#x6237;&#x7684;&#x4E3B;&#x76EE;&#x5F55;</td>
+</tr>
+<tr>
+<td style="text-align:left">cd ..</td>
+<td style="text-align:left">&#x5207;&#x6362;&#x5230;&#x4E0A;&#x4E00;&#x7EA7;&#x76EE;&#x5F55;</td>
+</tr>
+<tr>
+<td style="text-align:left">cd .</td>
+<td style="text-align:left">&#x5207;&#x6362;&#x5230;&#x5F53;&#x524D;&#x76EE;&#x5F55;</td>
+</tr>
+<tr>
+<td style="text-align:left">cd -</td>
+<td style="text-align:left">&#x5207;&#x6362;&#x5230;&#x4E0A;&#x4E00;&#x6B21;&#x76EE;&#x5F55;</td>
+</tr>
+<tr>
+<td style="text-align:left">touch &#x6587;&#x4EF6;&#x540D;</td>
+<td style="text-align:left">&#x521B;&#x5EFA;&#x6307;&#x5B9A;&#x6587;&#x4EF6;</td>
+</tr>
+<tr>
+<td style="text-align:left">mkdir [!&#x6587;&#x4EF6;&#x5939;&#x540D;]</td>
+<td style="text-align:left">&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x5939; [-p &#x4E0D;&#x5B58;&#x5728;&#x5219;&#x521B;&#x5EFA;]</td>
+</tr>
+<tr>
+<td style="text-align:left">rm [&#x9009;&#x9879;] [&#x6587;&#x4EF6;]</td>
+<td style="text-align:left">&#x5220;&#x9664;&#x6587;&#x4EF6;/&#x76EE;&#x5F55; [-r &#x9012;&#x5F52;]</td>
+</tr>
+<tr>
+<td style="text-align:left">rmdir &#x76EE;&#x5F55;&#x540D;</td>
+<td style="text-align:left">&#x5220;&#x9664;&#x7A7A;&#x76EE;&#x5F55;</td>
+</tr>
+<tr>
+<td style="text-align:left">cp</td>
+<td style="text-align:left">&#x62F7;&#x8D1D;&#x6587;&#x4EF6;&#x3001;&#x62F7;&#x8D1D;&#x76EE;&#x5F55;(-r)  [cp &#x6E90; &#x76EE;&#x6807;]</td>
+</tr>
+<tr>
+<td style="text-align:left">mv</td>
+<td style="text-align:left">&#x79FB;&#x52A8;&#x6587;&#x4EF6;&#x3001;&#x79FB;&#x52A8;&#x76EE;&#x5F55;&#x3001;&#x91CD;&#x547D;&#x540D;  [mv &#x6E90; &#x76EE;&#x6807;]</td>
+</tr>
+<tr>
+<td style="text-align:left">&gt;</td>
+<td style="text-align:left">&#x82E5;&#x6587;&#x4EF6;&#x5B58;&#x5728;&#x4F1A;&#x8986;&#x76D6;&#x539F;&#x6709;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#xFF0C;&#x2018;w&#x2019;&#x6A21;&#x5F0F;</td>
+</tr>
+<tr>
+<td style="text-align:left">&gt;&gt;</td>
+<td style="text-align:left">&#x82E5;&#x6587;&#x4EF6;&#x5B58;&#x5728;&#x4F1A;&#x8FFD;&#x52A0;&#x5199;&#x5165;&#x6587;&#x4EF6;&#x672B;&#x5C3E;&#xFF0C;&#x2018;a&#x2019; &#x6A21;&#x5F0F;</td>
+</tr>
+<tr>
+<td style="text-align:left">cat</td>
+<td style="text-align:left">&#x67E5;&#x770B;&#x5C0F;&#x6587;&#x4EF6;</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:left">cat &gt; file</td>
+<td style="text-align:left">&#x5199;&#x6587;&#x4EF6;</td>
+<td>cat &gt;file.txt &lt;&lt;EOF &gt;content &gt;EOF</td>
+</tr>
+<tr>
+<td style="text-align:left">cat file1 file2 &gt; file</td>
+<td style="text-align:left">&#x5408;&#x5E76;&#x6587;&#x4EF6;</td>
+<td>cat f1 // cat &gt; f1 // cat f1 f2 &gt; f3</td>
+</tr>
+<tr>
+<td style="text-align:left">more</td>
+<td style="text-align:left">&#x5206;&#x5C4F;&#x67E5;&#x770B;&#x5927;&#x578B;&#x6587;&#x4EF6;</td>
+</tr>
+<tr>
+<td style="text-align:left">ln</td>
+<td style="text-align:left">&#x521B;&#x5EFA;&#x786C;&#x94FE;&#x63A5;</td>
+</tr>
+<tr>
+<td style="text-align:left">ln -s</td>
+<td style="text-align:left">&#x521B;&#x5EFA;&#x8F6F;&#x94FE;&#x63A5; [ln -s &#x6E90;&#x8DEF;&#x5F84;(&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;) &#x8F6F;&#x94FE;&#x63A5;]</td>
+</tr>
+<tr>
+<td style="text-align:left">grep</td>
+<td style="text-align:left">&#x6587;&#x672C;&#x641C;&#x7D22;</td>
+</tr>
+<tr>
+<td style="text-align:left">grep -i</td>
+<td style="text-align:left">&#x5FFD;&#x7565;&#x5927;&#x5C0F;&#x5199;</td>
+</tr>
+<tr>
+<td style="text-align:left">grep &apos;^a&apos;</td>
+<td style="text-align:left">&#x4EE5;&#x5B57;&#x7B26;&#x4E32;a&#x5F00;&#x5934;</td>
+</tr>
+<tr>
+<td style="text-align:left">grep &apos;a$&apos;</td>
+<td style="text-align:left">&#x4EE5;&#x5B57;&#x7B26;&#x4E32;a&#x7ED3;&#x5C3E;</td>
+</tr>
+<tr>
+<td style="text-align:left">find</td>
+<td style="text-align:left">&#x6307;&#x5B9A;&#x76EE;&#x5F55;&#x4E0B;&#x67E5;&#x627E;&#x6587;&#x4EF6;(&#x5305;&#x62EC;&#x76EE;&#x5F55;)</td>
+</tr>
+<tr>
+<td style="text-align:left">find -name</td>
+<td style="text-align:left">&#x6587;&#x4EF6;&#x540D;(&#x5305;&#x62EC;&#x76EE;&#x5F55;&#x540D;)&#x67E5;&#x627E;</td>
+</tr>
+<tr>
+<td style="text-align:left">zip</td>
+<td style="text-align:left">&#x538B;&#x7F29;.zip&#x683C;&#x5F0F;&#x6587;&#x4EF6;</td>
+</tr>
+<tr>
+<td style="text-align:left">unzip</td>
+<td style="text-align:left">&#x89E3;&#x538B;.zip&#x683C;&#x5F0F;&#x6587;&#x4EF6;[unzip -d &#x89E3;&#x538B;&#x81F3;&#x6307;&#x5B9A;&#x76EE;&#x5F55;] </td>
+</tr>
+</tbody>
+</table>
+<footer class="page-footer"><span class="copyright">Just to learning. For infringement, please contact deleted. Copyright &#xA9; 2021 zbmain.</span><span class="footer-modification">&#x672C;&#x9875;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2021-03-28
+</span></footer>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Linux">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="进程线程协程.html" class="navigation navigation-next " aria-label="Next page: 进程线程协程">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"常用命令","level":"1.5.1","depth":2,"next":{"title":"进程线程协程","level":"1.5.2","depth":2,"path":"question/Linux/进程线程协程.md","ref":"question/Linux/进程线程协程.md","articles":[]},"previous":{"title":"Linux","level":"1.5","depth":1,"path":"question/Linux/README.md","ref":"question/Linux/README.md","articles":[{"title":"常用命令","level":"1.5.1","depth":2,"path":"question/Linux/Linux命令.md","ref":"question/Linux/Linux命令.md","articles":[]},{"title":"进程线程协程","level":"1.5.2","depth":2,"path":"question/Linux/进程线程协程.md","ref":"question/Linux/进程线程协程.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["highlight","katex","splitter","expandable-chapters-small","-lunr","-search","search-pro","chapter-fold","hide-element","github","code","-sharing","sharing-plus","insert-logo","favicon","popup","anchor-navigation-ex","ace","tbfed-pagefooter","fontsettings","klipse"],"styles":{"website":"gitbook/zcss.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Just to learning. For infringement, please contact deleted. Copyright &copy 2021 zbmain.","modify_label":"本页修订时间：","modify_format":"YYYY-MM-DD"},"chapter-fold":{},"ace":{},"github":{"url":"https://github.com/zbmain"},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":1},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"favicon":{"favicon":"https://cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico","shortcut":"https://cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico","bookmark":"https://cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico","appleTouch":"https://cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico","appleTouchMore":{"120x120":"https://cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico","180x180":"https://cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/favicon.ico"}},"expandable-chapters-small":{},"klipse":{"myConfigKey":"it's the default value"},"sharing":{"qq":false,"all":["facebook","qq"],"douban":false,"facebook":false,"weibo":false,"twitter":false,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; width: 120px;","url":"https://cdn.jsdelivr.net/gh/zbmain/zbmain.github.io@master/icon/zbmain.png"},"valine":{"appId":"gRbrt4WenLjfML1PFLeuW2YX-gzGzoHsz","appKey":"XB8w1AYeB8Ifkm0MwbHw4Edn"}},"theme":"default","author":"zbmain","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ZBook","language":"zh-hans","gitbook":"*"},"file":{"path":"question/Linux/Linux命令.md","mtime":"2021-03-28T10:26:04.488Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-28T10:39:51.335Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
